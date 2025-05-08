@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>پنل افزایش فالوور اینستاگرام</title>
+    <title>سرویس افزایش فالور اینستاگرام</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,8 +14,8 @@
         <div class="card">
             <div class="header">
                 <i class="fab fa-instagram logo"></i>
-                <h1>افزایش فالوور اینستاگرام</h1>
-                <p class="subtitle">فالوورهای واقعی و فعال با تضمین کیفیت</p>
+                <h1>افزایش فالور اینستاگرام</h1>
+                <p class="subtitle">فالورهای واقعی و فعال با تضمین کیفیت</p>
             </div>
             
             <form id="followerForm" class="form">
@@ -48,7 +48,7 @@
                 </div>
                 
                 <button type="submit" class="submit-btn" id="submitBtn">
-                    <span class="btn-text">درخواست فالوور</span>
+                    <span class="btn-text">درخواست فالور</span>
                     <i class="fas fa-paper-plane"></i>
                 </button>
             </form>
@@ -441,8 +441,8 @@ input[type="range"]::-webkit-slider-thumb {
     function showProgress(percent, text) {
         progressContainer.classList.remove('hidden');
         progressBar.style.width = `${percent}%`;
-        progressText.text
- }
+        progressText.textContent = text;
+    }
     
     // نمایش نتیجه
     function showResult(message, type) {
@@ -477,4 +477,3 @@ input[type="range"]::-webkit-slider-thumb {
     }
 });
 </script>
-
